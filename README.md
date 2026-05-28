@@ -73,8 +73,8 @@ A two-node air-quality monitor. An **Air Sensor** node samples particulates, CO�
 Both folders are independent PlatformIO projects targeting `board = fm-devkit` on the `espressif32` platform.
 
 ```bash
-git clone https://github.com/Luck-ai/air-monitoring-system
-cd air-monitoring-system
+git clone https://github.com/Luck-ai/airlink
+cd airlink
 
 # Flash the sensor node
 pio run -d "Air Sensor" -t upload
@@ -107,7 +107,7 @@ It opens a TCP socket to `192.168.4.1:12345` and appends each reading to `pm2.5.
 ## 🗂 Project structure
 
 ```text
-air-monitoring-system/
+airlink/
 ├── Air Sensor/             # ESP32 — sensors + ESP-NOW sender
 │   ├── platformio.ini
 │   ├── include/  lib/  test/
@@ -126,6 +126,6 @@ air-monitoring-system/
 
 <div align="center">
 
-**Air Monitoring System** · [GitHub](https://github.com/Luck-ai/air-monitoring-system) · [Issues](https://github.com/Luck-ai/air-monitoring-system/issues)
+**Air Monitoring System** · [GitHub](https://github.com/Luck-ai/airlink) · [Issues](https://github.com/Luck-ai/airlink/issues)
 
 </div>
